@@ -1,2 +1,2 @@
 # HackerRank
-Solving HackerRank problems
+Solving Capture The Flag contest problems
