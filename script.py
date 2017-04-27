@@ -12,5 +12,7 @@ phrases = []
 for key in keys:
     r = requests.get(addr+key+'.json')
     phrases.append(r.json()['news_title'])
+
+phrases.sort()
 for phrase in phrases:
     out.write(phrase+'\n')
